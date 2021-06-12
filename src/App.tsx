@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 
-import { Header, Main, Skills, Works } from "./components";
+import { Freelance, Header, Main, Skills, Works } from "./components";
 
 function App() {
     return (
@@ -11,6 +11,7 @@ function App() {
             <Main />
             <Skills />
             <Works />
+            <Freelance />
         </div>
     );
 }

@@ -1,0 +1,14 @@
+.freelanceBlock {
+    height: 30vh;
+    background-color: #decc9c;
+}
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container button {
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
