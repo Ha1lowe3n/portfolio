@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 
-import { Header, Main, Skills } from "./components";
+import { Header, Main, Skills, Works } from "./components";
 
 function App() {
     return (
@@ -10,6 +10,7 @@ function App() {
             <Header />
             <Main />
             <Skills />
+            <Works />
         </div>
     );
 }

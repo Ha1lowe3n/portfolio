@@ -5,6 +5,7 @@ import commonContainer from "../../common/styles/Container.module.css";
 import commonLine from "../../common/styles/Line.module.css";
 
 import Skill from "./Skill/Skill";
+import BlockTitle from "../../common/components/BlockTitle";
 
 function Skills() {
     return (
@@ -12,10 +13,7 @@ function Skills() {
             <div
                 className={`${commonContainer.container} ${style.skillsContainer}`}
             >
-                <div className={style.title}>
-                    <h2>Skills</h2>
-                    <div className={commonLine.line}></div>
-                </div>
+                <BlockTitle title={"My Skills"} />
                 <div className={style.skills}>
                     <Skill
                         title={"JS"}

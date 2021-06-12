@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    background-color: #f7f7f7;
+
+    /* временно для отделения title */
+    margin-bottom: 10px;
+}
+.line {
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto;
+}
