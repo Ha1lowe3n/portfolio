@@ -10,7 +10,7 @@ function ContactForm() {
         <div className={style.contactsFormBlock}>
             <div className={`${commonContainer.container} ${style.container}`}>
                 <BlockTitle title={"Contact"} />
-                <form>
+                <form id="data">
                     <input
                         type="text"
                         name="name"
@@ -28,8 +28,10 @@ function ContactForm() {
                         placeholder="Your message"
                         required
                     />
-                    <button type="submit">SEND MESSAGE</button>
                 </form>
+                <button type="submit" form="data">
+                    SEND MESSAGE
+                </button>
             </div>
         </div>
     );
