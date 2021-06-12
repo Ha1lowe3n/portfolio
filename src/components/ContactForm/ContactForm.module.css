@@ -1,0 +1,28 @@
+.contactsFormBlock {
+    height: 50vh;
+    background-color: #ffb79a;
+}
+.container {
+    flex-direction: column;
+    align-items: center;
+}
+.container form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input,
+.container textarea {
+    margin-bottom: 10px;
+    padding: 5px 2px;
+}
+
+.container button {
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

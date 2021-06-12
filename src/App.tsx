@@ -2,7 +2,14 @@ import React from "react";
 
 import "./App.css";
 
-import { Freelance, Header, Main, Skills, Works } from "./components";
+import {
+    ContactsForm,
+    Freelance,
+    Header,
+    Main,
+    Skills,
+    Works,
+} from "./components";
 
 function App() {
     return (
@@ -12,6 +19,7 @@ function App() {
             <Skills />
             <Works />
             <Freelance />
+            <ContactsForm />
         </div>
     );
 }
