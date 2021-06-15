@@ -11,9 +11,7 @@ function Work({ title, description }: WorkPropsType) {
     return (
         <div className={style.work}>
             <div className={style.picture}>
-                <a href={"google.com"}>
-                    <img src="#" alt="picture work" />
-                </a>
+                <a href={"google.com"}>View</a>
             </div>
             <div className={style.aboutWork}>
                 <h3>{title}</h3>

@@ -1,5 +1,5 @@
 .freelanceBlock {
-    height: 30vh;
+    padding: 50px 0;
     background-color: #decc9c;
 }
 .container {
@@ -11,4 +11,5 @@
     font-size: 20px;
     cursor: pointer;
     width: 100px;
+    margin-top: 20px;
 }

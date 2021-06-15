@@ -4,6 +4,7 @@ import "./App.css";
 
 import {
     ContactsForm,
+    Footer,
     Freelance,
     Header,
     Main,
@@ -20,6 +21,7 @@ function App() {
             <Works />
             <Freelance />
             <ContactsForm />
+            <Footer />
         </div>
     );
 }

@@ -1,5 +1,5 @@
 .contactsFormBlock {
-    height: 50vh;
+    padding: 50px 0;
     background-color: #ffb79a;
 }
 .container {
@@ -8,15 +8,20 @@
     justify-content: space-between;
 }
 .container form {
-    width: 350px;
+    width: 280px;
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
 }
 
 .container input,
 .container textarea {
     margin-bottom: 10px;
     padding: 5px 2px;
+}
+
+.container textarea {
+    height: 70px;
 }
 
 .container button {

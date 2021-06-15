@@ -7,6 +7,9 @@
     width: 100%;
     background-color: #eeeef5;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .aboutWork {
     display: flex;
@@ -16,4 +19,10 @@
 }
 .aboutWork span {
     margin-bottom: 5px;
+}
+.work a {
+    text-decoration: none;
+    color: #fff;
+    background-color: saddlebrown;
+    padding: 10px 25px;
 }
